@@ -1,0 +1,40 @@
+body {
+    background-color: #fbfaf5;
+}
+
+table.schedule {
+    margin: 0px auto;
+    max-width: 800px;
+    border-collapse: collapse;
+}
+
+table.schedule td,
+table.schedule th {
+    border: 1px solid;
+    margin: 0px;
+    padding: 8px;
+}
+
+table.schedule td:first-child {
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    line-height: 24px;
+}
+
+ul {
+    display: block;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 24px;
+}
